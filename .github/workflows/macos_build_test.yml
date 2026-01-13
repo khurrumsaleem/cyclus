@@ -30,7 +30,6 @@ jobs:
       fail-fast: false
       matrix:
         macos_versions: [
-            macos-13,
             macos-14,
         ]
         parallel_flag : [
