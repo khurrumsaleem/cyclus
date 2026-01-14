@@ -61,6 +61,7 @@ Since last release
 
 **Fixed:**
 
+* Removed retired macos-13 runner for CI tests and added macos-15-intel and macos-latest (#1938)
 * Removed unnecessary records being added to the Resource database by packaging process (#1761)
 * Removed GTest source code from code coverage reports (#1759)
 * Extended new GTest handling to Institutions and Facilities as they were done in Regions (#1836)
