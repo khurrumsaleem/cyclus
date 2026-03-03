@@ -34,6 +34,7 @@ Since last release
 * Allow multiple archetype blocks to facilitate includes (#1874)
 
 **Changed:**
+* Changed the schema for recipes to require oneOrMore instead of zeroOrMore (#1940)
 * Made the Unit Tests far less verbose by suppressing log output during RunSim (#1927)
 * Changed Dockerfile to use boost and boost-cpp instead of libboost-devel (#1906)
 * Changed TradeExecutor to use adjusted preferences from ExchangeContext (#1897)
